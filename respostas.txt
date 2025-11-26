@@ -3,3 +3,8 @@ Com um repositório único e centralizado, todos os membros da equipa conseguem 
 os administradores tem o panorama geral das tarefas dos programadores:
 O repositório centralizado permite aos administradores supervisionar todo o desenvolvimento num só lugar. Conseguem monitorizar quem fez alterações, quando foram feitas, acompanhar o progresso do projeto, gerir permissões e identificar rapidamente problemas ou conflitos no código.
 
+2.
+Os 3 componentes principais do GIT são:
+Working Directory
+Staging Area
+Repository
