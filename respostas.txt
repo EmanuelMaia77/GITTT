@@ -8,3 +8,4 @@ Os 3 componentes principais do GIT são:
 Working Directory
 Staging Area
 Repository
+
