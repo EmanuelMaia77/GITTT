@@ -1,0 +1,19 @@
+1. Os elementos da equipa conhecem o trabalho dos outros:
+Com um repositório único e centralizado, todos os membros da equipa conseguem ver facilmente o que os colegas estão a desenvolver, que ficheiros foram modificados e que alterações estão a ser feitas. Isto promove melhor colaboração, evita trabalho duplicado e facilita a coordenação entre programadores.
+os administradores tem o panorama geral das tarefas dos programadores:
+O repositório centralizado permite aos administradores supervisionar todo o desenvolvimento num só lugar. Conseguem monitorizar quem fez alterações, quando foram feitas, acompanhar o progresso do projeto, gerir permissões e identificar rapidamente problemas ou conflitos no código.
+
+2.
+Os 3 componentes principais do GIT são:
+Working Directory
+Staging Area
+Repository
+
+3.
+O Merge é o processo de integrar alterações de uma branch para outra no Git. Existem principalmente três tipos de merge:
+Fast-Forward Merge: Ocorre quando não há commits novos na branch de destino desde que a branch de origem foi criada. O Git simplesmente move o ponteiro da branch para a frente, sem criar um commit de merge.
+Three-Way Merge (Recursive): Usado quando ambas as branches têm commits diferentes. O Git cria um novo commit de merge que combina as alterações de ambas as branches, tendo dois commits pais.
+Squash Merge: Combina todos os commits de uma branch num único commit antes de integrar na branch de destino, mantendo o histórico mais limpo.
+
+F. git status
+
