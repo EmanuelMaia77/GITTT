@@ -9,3 +9,9 @@ Working Directory
 Staging Area
 Repository
 
+E.O Merge é o processo de integrar alterações de uma branch para outra no Git. Existem principalmente três tipos de merge:
+Fast-Forward Merge: Ocorre quando não há commits novos na branch de destino desde que a branch de origem foi criada. O Git simplesmente move o ponteiro da branch para a frente, sem criar um commit de merge.
+Three-Way Merge (Recursive): Usado quando ambas as branches têm commits diferentes. O Git cria um novo commit de merge que combina as alterações de ambas as branches, tendo dois commits pais.
+Squash Merge: Combina todos os commits de uma branch num único commit antes de integrar na branch de destino, mantendo o histórico mais limpo.
+
+F. git status
